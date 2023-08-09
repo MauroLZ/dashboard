@@ -1,62 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="UTF-8">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Dashboard</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cormorant:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="main-container">
 	<div class="left-menu">
 		<div class="title">
-			<i class="icon">I</i>
-			<span class="name">Dashboard</span>
+			<i class="fa-solid fa-mug-hot"></i>
+			<span class="name">Furse Coffee</span>
 		</div>
 		<div class="upper-menu">
 			<div>
-				<i>i</i>
+				<i class="fa-solid fa-house"></i>
 				<span>Home</span>
 			</div>
 			<div>
-				<i>i</i>
+				<i class="fa-solid fa-user"></i>
 				<span>Profile</span>
 			</div>
 			<div>
-				<i>i</i>
+				<i class="fa-solid fa-message"></i>
 				<span>Messages</span>
 			</div>
 			<div>
-				<i>i</i>
+				<i class="fa-solid fa-clock"></i>
 				<span>History</span>
 			</div>
 			<div>
-				<i>i</i>
+				<i class="fa-solid fa-list-check"></i>
 				<span>Tasks</span>
 			</div>
 			<div>
-				<i>i</i>
+				<i class="fa-solid fa-user-group"></i>
 				<span>Communities</span>
 			</div>
 		</div>
 		<div class="lower-menu">
 			<div>
-				<i>i</i>
-				<span>Communities</span>
+				<i class="fa-solid fa-gear"></i>
+				<span>Settings</span>
 			</div>
 			<div>
-				<i>i</i>
-				<span>Communities</span>
+				<i class="fa-solid fa-question"></i>
+				<span>Support</span>
 			</div>
 			<div>
-				<i>i</i>
-				<span>Communities</span>
+				<i class="fa-solid fa-shield"></i>
+				<span>Privacy</span>
 			</div>
 		</div>
 	</div>
 	<div class="right-menu">
-
+		<header>
+			<div class="header_upper-section">
+				<div class="search-bar">
+					<i class="fa-solid fa-search"></i>
+					<input type="text" name="search">
+				</div>
+				<div class="profile-name">
+					<i class="fa-regular fa-bell"></i>
+					<div class="profile-picture">
+						<img src="images/cup.avif" alt="cup">
+					</div>
+					<span>John Doe</span>
+				</div>
+			</div>
+			<div class="header_lower-section">
+				<div class="greeting">
+					<div class="picture">
+						<img src="images/cup.avif" alt="cup">
+					</div>
+					<div class="welcome">
+						<span id="welcome-back">Welcome back,</span>
+						<span class="header-name">John Doe (@johnithius)</span>
+					</div>
+				</div>
+				<div class="header-buttons">
+					<button class="header-button">New</button>
+					<button class="header-button">Upload</button>
+					<button class="header-button">Share</button>
+				</div>
+			</div>
+		</header>
+			<div class="main">
+				<div class="main-left">
+					<div class="projects title">Your Projects</div>
+					<div class="content1 card">
+						<div class="card-content"></div>
+					</div>
+					<div class="content2 card"></div>
+					<div class="content3 card"></div>
+					<div class="content4 card"></div>
+					<div class="content5 card"></div>
+					<div class="content6 card"></div>
+					<div class="main-right">
+						<div class="announcements title">Announcements</div>
+						<div class="announcement-container card"></div>
+						<div class="trending title">Trending</div>
+						<div class="trending-container card"></div>
+					</div>
+				</div>
+			</div>
 	</div>
 </div>
 </body>
