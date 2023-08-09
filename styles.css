@@ -22,7 +22,7 @@
 }
 
 .left-menu i {
-	width: 30px;
+	width: 25px;
 	font-size: 35px;
 }
 
@@ -66,8 +66,12 @@
 	margin: 2.5rem 0 2rem 0;
 }
 
+.upper-menu i {
+	font-size: 25px;
+}
+
 .upper-menu, .lower-menu {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 600;
 }
 
